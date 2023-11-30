@@ -10,7 +10,11 @@ ng () {
 res=0
 
 out=$(seq 5 | ./plus)
-[ "${out}"=14 ] || ng ${LINENO}
+[ "${out}"="Sum: 15
+Average: 3.0
+Factorial: 120
+Maximum: 5
+Minimum: 1" ] || ng ${LINENO}
 
 [ "$res"=0 ] && echo OK
 
