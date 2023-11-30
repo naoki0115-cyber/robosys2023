@@ -3,12 +3,35 @@
 # SPDX-License-Identifier: GPL-3.0
 
 import sys
+import math
+
 def tonum(s):
     try:
         return int(s)
     except:
         return float(s)
-ans = 0
+
+numbers = []
 for line in sys.stdin:
-    ans += tonum(line)
-print(ans)
+    num = tonum(line)
+    numbers.append(num)
+
+# 総和
+sum_result = sum(numbers)
+print(f"Sum: {sum_result}")
+
+# 平均値
+average = sum(numbers) / len(numbers)
+print(f"Average: {average}")
+
+# 階乗
+factorial_result = math.prod(numbers)
+print(f"Factorial: {factorial_result}")
+
+# 最大値
+max_value = max(numbers)
+print(f"Maximum: {max_value}")
+
+# 最小値
+min_value = min(numbers)
+print(f"Minimum: {min_value}")
