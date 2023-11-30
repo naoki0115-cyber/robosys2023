@@ -9,12 +9,12 @@
 ```
 ## 使い方
 標準入力で数字を行ごとに読み取り以下の数を順に出力するものです。
-・総和(Sum)
-・平均(Average)
-・階乗(Factorial)
-・最大値(Maximum)
-・最小値(Minimum)
-**入力例**
+* 総和(Sum)
+* 平均(Average)
+* 階乗(Factorial)
+* 最大値(Maximum)
+* 最小値(Minimum)
+*  **入力例**
 ```
 $ seq 5 | ./plus
 ```
