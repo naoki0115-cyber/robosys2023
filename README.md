@@ -7,7 +7,7 @@
   $ cd robosys2023
 ```
 ## 使い方
-標準入力で数字を行ごとに読み取り以下の数を順に出力するものです。
+* 標準入力で数字を行ごとに読み取り以下の数を順に出力するものです。
 	* 総和(Sum)
 	* 平均(Average)
 	* 階乗(Factorial)
@@ -32,7 +32,7 @@ Minimum: 1
 
 ## 権利関係
 * このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布及び使用が許可されます.
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作とし、改変を加えたものです。
 	* https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/
 	* https://ryuichiueda.github.io/my_slides/robosys_2022/lesson5.html#/
 	* https://ryuichiueda.github.io/my_slides/robosys_2022/lesson6.html#/
