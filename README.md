@@ -13,7 +13,7 @@
 	* 階乗(Factorial)
 	* 最大値(Maximum)
 	* 最小値(Minimum)
-**入力例**
+* **入力例**
 ```
 $ seq 5 | ./plus
 Sum: 15
