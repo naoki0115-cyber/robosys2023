@@ -16,6 +16,15 @@ Factorial: 120
 Maximum: 5
 Minimum: 1" ] || ng ${LINENO}
 
-[ "$res"=0 ] && echo OK
+# 要素がない場合
+out=$(1 | ./plus) 
+[ "${out}"="1: command not found
+Sum: No numbers provided.
+No numbers provided. Cannot calculate average.
+No numbers provided. Cannot calculate factorial.
+No numbers provided. Cannot calculate maximum.
+No numbers provided. Cannot calculate minimum." ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
 
 exit $res

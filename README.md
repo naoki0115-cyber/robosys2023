@@ -2,18 +2,19 @@
 [![test](https://github.com/naoki0115-cyber/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/naoki0115-cyber/robosys2023/actions/workflows/test.yml)
 
 ## インストール方法
+以下の手順に従い、インストールを行ってください。
 ```
   $ git clone  https://github.com/naoki0115-cyber/robosys2023.git
   $ cd robosys2023
 ```
-## 使い方
-* 標準入力で数字を行ごとに読み取り以下の数を順に出力するものです。
+## 使用方法・機能
+* 標準入力で数字を行ごとに読み取り、それが要素数を持つ数列ならば以下の5つを、単項の数字や文字であった場合にはNo numbers provided. Cannot calculate average.のような計算不能を知らせる文字列を出力します。
 	* 総和(Sum)
 	* 平均(Average)
 	* 階乗(Factorial)
 	* 最大値(Maximum)
 	* 最小値(Minimum)
-* **入力例**
+* **入力例とその出力結果**
 ```
 $ seq 5 | ./plus
 Sum: 15
@@ -21,6 +22,15 @@ Average: 3.0
 Factorial: 120
 Maximum: 5
 Minimum: 1
+```
+```
+$ 1 | ./plus
+1: command not found
+Sum: No numbers provided.
+No numbers provided. Cannot calculate average.
+No numbers provided. Cannot calculate factorial.
+No numbers provided. Cannot calculate maximum.
+No numbers provided. Cannot calculate minimum.
 ```
 
 ## 必要なソフトウェア

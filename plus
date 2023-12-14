@@ -18,20 +18,32 @@ for line in sys.stdin:
 
 # 総和
 sum_result = sum(numbers)
-print(f"Sum: {sum_result}")
+print(f"Sum: {sum_result if len(numbers) > 1 else numbers[0] if len(numbers) == 1 else 'No numbers provided.'}")
 
-# 平均値
-average = sum(numbers) / len(numbers)
-print(f"Average: {average}")
+# 平均
+if len(numbers) > 0:
+    average = sum(numbers) / len(numbers)
+    print(f"Average: {average}")
+else:
+    print("No numbers provided. Cannot calculate average.")
 
 # 階乗
-factorial_result = math.prod(numbers)
-print(f"Factorial: {factorial_result}")
+if len(numbers) > 0:
+    factorial_result = math.prod(numbers)
+    print(f"Factorial: {factorial_result}")
+else:
+    print("No numbers provided. Cannot calculate factorial.")
 
 # 最大値
-max_value = max(numbers)
-print(f"Maximum: {max_value}")
+if len(numbers) > 0:
+    max_value = max(numbers)
+    print(f"Maximum: {max_value}")
+else:
+    print("No numbers provided. Cannot calculate maximum.")
 
 # 最小値
-min_value = min(numbers)
-print(f"Minimum: {min_value}")
+if len(numbers) > 0:
+    min_value = min(numbers)
+    print(f"Minimum: {min_value}")
+else:
+    print("No numbers provided. Cannot calculate minimum.")
