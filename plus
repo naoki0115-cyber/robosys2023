@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Naoki Kaizawa
-# SPDX-License-Identifier: BSD
+# SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 import math
