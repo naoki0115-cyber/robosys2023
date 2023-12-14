@@ -8,7 +8,7 @@
   $ cd robosys2023
 ```
 ## 使用方法・機能
-* 標準入力で数字を行ごとに読み取り、それが要素数を持つ数列ならば以下の5つを、単項の数字や文字であった場合にはNo numbers provided. Cannot calculate average.のような計算不能を知らせる文字列を出力します。
+* 標準入力で数字を行ごとに読み取り、それが要素数を持つ数列ならば以下の5つを、単項の数字や文字であった場合にはinappropriate（不適切）を出力します。
 	* 総和(Sum)
 	* 平均(Average)
 	* 階乗(Factorial)
@@ -26,11 +26,11 @@ Minimum: 1
 ```
 $ 1 | ./plus
 1: command not found
-Sum: No numbers provided.
-No numbers provided. Cannot calculate average.
-No numbers provided. Cannot calculate factorial.
-No numbers provided. Cannot calculate maximum.
-No numbers provided. Cannot calculate minimum.
+Sum: inappropriate
+Average: nappropriate
+Factorial: inappropriate
+Maximum:inappropriate
+Minimum:inappropriate
 ```
 
 ## 必要なソフトウェア
