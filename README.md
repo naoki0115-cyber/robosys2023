@@ -24,8 +24,7 @@ Maximum: 5
 Minimum: 1
 ```
 ```
-$ 1 | ./plus
-1: command not found
+$ seq 0 | ./plus
 Sum: inappropriate
 Average: nappropriate
 Factorial: inappropriate
