@@ -17,7 +17,7 @@ Maximum: 5
 Minimum: 1" ] || ng ${LINENO}
 
 # 要素がない場合
-out=$(seq 1 | ./plus) 
+out=$(seq 0 | ./plus) 
 [ "${out}"="Sum: inappropriate
 Average: nappropriate
 Factorial: inappropriate
