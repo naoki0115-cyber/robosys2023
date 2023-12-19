@@ -17,9 +17,8 @@ Maximum: 5
 Minimum: 1" ] || ng ${LINENO}
 
 # 要素がない場合
-out=$(1 | ./plus) 
-[ "${out}"="1: command not found
-Sum: inappropriate
+out=$(seq 1 | ./plus) 
+[ "${out}"="Sum: inappropriate
 Average: nappropriate
 Factorial: inappropriate
 Maximum:inappropriate
